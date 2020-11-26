@@ -1,0 +1,780 @@
+Dependencies for Project 'GL007A', Target 'Myproject': (DO NOT MODIFY !)
+F (..\USER\src\main.c)(0x5E97B79A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+I (..\USER\inc\setup.h)(0x5BBEAA93)
+I (..\USER\inc\ra8870.h)(0x5E89A1AE)
+I (..\USER\inc\24cxx.h)(0x5E8A7428)
+I (..\USER\inc\myiic.h)(0x5B8601E5)
+I (..\USER\inc\touch.h)(0x5DE74C59)
+I (..\USER\inc\flash.h)(0x5BA9DC18)
+I (..\USER\inc\picture.h)(0x5BAB1CEF)
+I (..\USER\inc\rtc.h)(0x5B8DDA0C)
+I (..\USER\inc\ads8341.h)(0x5BA04DBE)
+I (..\USER\inc\printer.h)(0x5BCD8FB8)
+I (C:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (C:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+F (..\USER\src\stm32f10x_it.c)(0x5E882B97)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "stm32f10x_it.o" --omf_browse "stm32f10x_it.crf" --depend "stm32f10x_it.d")
+I (..\USER\inc\stm32f10x_it.h)(0x4D99A59E)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+I (..\USER\inc\ads8341.h)(0x5BA04DBE)
+I (..\USER\inc\setup.h)(0x5BBEAA93)
+I (..\USER\inc\ra8870.h)(0x5E89A1AE)
+F (..\USER\src\Setup.c)(0x5E86EF01)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "setup.o" --omf_browse "setup.crf" --depend "setup.d")
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+I (..\USER\inc\flash.h)(0x5BA9DC18)
+I (..\USER\inc\SPI.h)(0x5B890691)
+F (..\USER\src\RA8870.c)(0x5E8D258A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "ra8870.o" --omf_browse "ra8870.crf" --depend "ra8870.d")
+I (..\USER\inc\rtc.h)(0x5B8DDA0C)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+I (..\USER\inc\ra8870.h)(0x5E89A1AE)
+I (..\USER\inc\touch.h)(0x5DE74C59)
+I (..\USER\inc\setup.h)(0x5BBEAA93)
+I (C:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (C:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (C:\ARM\ADSv1_2\INCLUDE\string.h)(0x3BEB19E6)
+I (..\USER\inc\picture.h)(0x5BAB1CEF)
+F (..\USER\src\malloc.c)(0x54BDE21C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "malloc.o" --omf_browse "malloc.crf" --depend "malloc.d")
+I (..\USER\inc\malloc.h)(0x57F275C8)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\USER\src\24cxx.c)(0x5B8E5D21)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "24cxx.o" --omf_browse "24cxx.crf" --depend "24cxx.d")
+I (..\USER\inc\24cxx.h)(0x5E8A7428)
+I (..\USER\inc\myiic.h)(0x5B8601E5)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+I (..\USER\inc\setup.h)(0x5BBEAA93)
+F (..\USER\src\myiic.c)(0x5B85F2E7)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "myiic.o" --omf_browse "myiic.crf" --depend "myiic.d")
+I (..\USER\inc\myiic.h)(0x5B8601E5)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+I (..\USER\inc\setup.h)(0x5BBEAA93)
+F (..\USER\src\touch.c)(0x5E8C3ABF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "touch.o" --omf_browse "touch.crf" --depend "touch.d")
+I (..\USER\inc\touch.h)(0x5DE74C59)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+I (..\USER\inc\setup.h)(0x5BBEAA93)
+I (..\USER\inc\24cxx.h)(0x5E8A7428)
+I (..\USER\inc\myiic.h)(0x5B8601E5)
+I (..\USER\inc\ra8870.h)(0x5E89A1AE)
+I (C:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (C:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+F (..\USER\src\flash.c)(0x5BAC7FDA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "flash.o" --omf_browse "flash.crf" --depend "flash.d")
+I (..\USER\inc\flash.h)(0x5BA9DC18)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+I (..\USER\inc\spi.h)(0x5B890691)
+I (..\USER\inc\setup.h)(0x5BBEAA93)
+F (..\USER\src\spi.c)(0x5B8910DA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "spi.o" --omf_browse "spi.crf" --depend "spi.d")
+I (..\USER\inc\spi.h)(0x5B890691)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\USER\src\picture.c)(0x5E893B7C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "picture.o" --omf_browse "picture.crf" --depend "picture.d")
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\USER\src\rtc.c)(0x5E898C7F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "rtc.o" --omf_browse "rtc.crf" --depend "rtc.d")
+I (..\USER\inc\rtc.h)(0x5B8DDA0C)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+I (..\USER\inc\setup.h)(0x5BBEAA93)
+F (..\USER\src\ads8341.c)(0x5BF3C23B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "ads8341.o" --omf_browse "ads8341.crf" --depend "ads8341.d")
+I (..\USER\inc\ADS8341.h)(0x5BA04DBE)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+I (..\USER\inc\setup.h)(0x5BBEAA93)
+I (..\USER\inc\spi.h)(0x5B890691)
+I (..\USER\inc\ra8870.h)(0x5E89A1AE)
+F (..\USER\src\printer.c)(0x5BCD9054)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "printer.o" --omf_browse "printer.crf" --depend "printer.d")
+I (..\USER\inc\printer.h)(0x5BCD8FB8)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+I (..\USER\inc\setup.h)(0x5BBEAA93)
+F (..\LIB\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "misc.o" --omf_browse "misc.crf" --depend "misc.d")
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+F (..\LIB\src\stm32f10x_adc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "stm32f10x_adc.o" --omf_browse "stm32f10x_adc.crf" --depend "stm32f10x_adc.d")
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\LIB\src\stm32f10x_fsmc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "stm32f10x_fsmc.o" --omf_browse "stm32f10x_fsmc.crf" --depend "stm32f10x_fsmc.d")
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\LIB\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "stm32f10x_gpio.o" --omf_browse "stm32f10x_gpio.crf" --depend "stm32f10x_gpio.d")
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\LIB\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "stm32f10x_rcc.o" --omf_browse "stm32f10x_rcc.crf" --depend "stm32f10x_rcc.d")
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\LIB\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "stm32f10x_tim.o" --omf_browse "stm32f10x_tim.crf" --depend "stm32f10x_tim.d")
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\LIB\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "stm32f10x_spi.o" --omf_browse "stm32f10x_spi.crf" --depend "stm32f10x_spi.d")
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\LIB\src\stm32f10x_rtc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "stm32f10x_rtc.o" --omf_browse "stm32f10x_rtc.crf" --depend "stm32f10x_rtc.d")
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\LIB\src\stm32f10x_bkp.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "stm32f10x_bkp.o" --omf_browse "stm32f10x_bkp.crf" --depend "stm32f10x_bkp.d")
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\LIB\src\stm32f10x_pwr.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "stm32f10x_pwr.o" --omf_browse "stm32f10x_pwr.crf" --depend "stm32f10x_pwr.d")
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\CMSIS\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "core_cm3.o" --omf_browse "core_cm3.crf" --depend "core_cm3.d")
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+F (..\CMSIS\system_stm32f10x.c)(0x4D783CB0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\LIB\inc -I..\startup -I..\USER\inc -I..\STemWinLibrary532\Config -I..\STemWinLibrary532\inc -I..\Demo -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "system_stm32f10x.o" --omf_browse "system_stm32f10x.crf" --depend "system_stm32f10x.d")
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\inc\stm32f10x_conf.h)(0x4D99A59E)
+I (..\LIB\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\LIB\inc\misc.h)(0x4D783BB4)
+F (..\startup\startup_stm32f10x_hd.s)(0x5B865F2C)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I D:\keil4\ARM\RV31\INC -I D:\keil4\ARM\CMSIS\Include -I D:\keil4\ARM\Inc\ST\STM32F10x --list ".\startup_stm32f10x_hd.lst" --xref -o ".\startup_stm32f10x_hd.o" --depend ".\startup_stm32f10x_hd.d")

@@ -1,0 +1,46 @@
+*** Creating Trace Output File 'YG320B.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"stm32f10x_it.o"'
+### List of Objects: adding '"setup.o"'
+### List of Objects: adding '"ra8870.o"'
+### List of Objects: adding '"malloc.o"'
+### List of Objects: adding '"24cxx.o"'
+### List of Objects: adding '"myiic.o"'
+### List of Objects: adding '"touch.o"'
+### List of Objects: adding '"flash.o"'
+### List of Objects: adding '"spi.o"'
+### List of Objects: adding '"picture.o"'
+### List of Objects: adding '"rtc.o"'
+### List of Objects: adding '"ads8341.o"'
+### List of Objects: adding '"printer.o"'
+### List of Objects: adding '"misc.o"'
+### List of Objects: adding '"stm32f10x_adc.o"'
+### List of Objects: adding '"stm32f10x_fsmc.o"'
+### List of Objects: adding '"stm32f10x_gpio.o"'
+### List of Objects: adding '"stm32f10x_rcc.o"'
+### List of Objects: adding '"stm32f10x_tim.o"'
+### List of Objects: adding '"stm32f10x_spi.o"'
+### List of Objects: adding '"stm32f10x_rtc.o"'
+### List of Objects: adding '"stm32f10x_bkp.o"'
+### List of Objects: adding '"stm32f10x_pwr.o"'
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### List of Objects: adding '".\startup_stm32f10x_hd.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "main.o" "stm32f10x_it.o" "setup.o" "ra8870.o" "malloc.o" "24cxx.o" "myiic.o" "touch.o" "flash.o" "spi.o" "picture.o" "rtc.o" "ads8341.o" "printer.o" "misc.o" "stm32f10x_adc.o" "stm32f10x_fsmc.o" "stm32f10x_gpio.o" "stm32f10x_rcc.o" "stm32f10x_tim.o" "stm32f10x_spi.o" "stm32f10x_rtc.o" "stm32f10x_bkp.o" "stm32f10x_pwr.o" "core_cm3.o" "system_stm32f10x.o" ".\startup_stm32f10x_hd.o" 
+--library_type=microlib --strict --scatter "YG320B.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\YG320B.map" -o YG320B.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'YG320B.axf'
+### ADS-LD Command File: 'YG320B.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'YG320B.lnp', Handle=0x00000304
+### Writing '.lnp' file
+### ADS-LD Command file 'YG320B.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
